@@ -1,5 +1,12 @@
 # resolved-nuxt
 
+## Serve Static locally
+
+``` bash
+npm install -v serve
+serve ./dist
+```
+
 ## Build Setup
 
 ``` bash
