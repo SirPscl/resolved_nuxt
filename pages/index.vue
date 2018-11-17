@@ -2,9 +2,7 @@
   <section class="container">
     <div>
       <!-- <logo/> -->
-      <h1 class="title">
-        Pascal Huber
-      </h1>
+      <h1 class="title">Pascal Huber</h1>
       <div class="links">
         <a
           href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xE493B06DD070AFC8"
@@ -12,6 +10,14 @@
           class="main-link button--grey">
           <fa :icon="faKey" /> Public Key
         </a>
+        <br>
+        <a
+          href="/cv_pascal_huber.pdf"
+          target="_blank"
+          class="main-link button--grey">
+          <fa :icon="faFileContract" /> Curriculum Vitae
+        </a>
+        <br>
         <!-- <a
              href="https://github.com/sirpscl"
              target="_blank"
@@ -27,6 +33,7 @@
             src="~/assets/quickshift_i.svg">
           QuickShift
         </a>
+        <br>
         <a
           href="mailto:pascal.huber@resolved.ch"
           target="_blank"
@@ -41,7 +48,7 @@
 <script>
   import Logo from '~/components/Logo.vue'
   import { faGithub } from '@fortawesome/free-brands-svg-icons'
-  import { faKey, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+  import { faKey, faEnvelope, faFileContract } from '@fortawesome/free-solid-svg-icons'
 
   export default {
     components: {
@@ -56,6 +63,9 @@
       },
       faEnvelope() {
         return faEnvelope
+      },
+      faFileContract() {
+        return faFileContract
       }
     }
   }
@@ -69,6 +79,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #eee;
   }
 
   .title {
@@ -96,12 +107,12 @@
   .main-link {
     width: 200px;
     line-height: 2;
-    margin: 20px;
+    margin: 10px;
   }
 
   @font-face {
-    font-family: 'Tagesschrift';
-    src: url('~/assets/augie.ttf');
+    font-family: 'augie';
+    src: url('/augie.ttf');
   }
 
 </style>
