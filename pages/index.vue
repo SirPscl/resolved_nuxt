@@ -5,17 +5,24 @@
       <h1 class="title">Pascal Huber</h1>
       <div class="links">
         <a
-          href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xE493B06DD070AFC8"
-          target="_blank"
-          class="main-link button--grey">
-          <fa :icon="faKey" /> Public Key
+          href="mailto:pascal.huber@resolved.ch"
+          class="link"
+          target="_blank">
+          pascal.huber@resolved.ch
         </a>
-        <br>
+        <!-- <span class="show-for-large-only">&nbsp;|&nbsp;</span> -->
+        <a
+          href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xE493B06DD070AFC8"
+          class="link"
+          target="_blank">
+          public key
+        </a>
+        <!-- <span class="show-for-large-only">&nbsp;|&nbsp;</span> -->
         <a
           href="/cv_pascal_huber.pdf"
-          target="_blank"
-          class="main-link button--grey">
-          <fa :icon="faFileContract" /> Curriculum Vitae
+          class="link"
+          target="_blank">
+          curriculum vitae
         </a>
         <br>
         <!-- <a
@@ -24,22 +31,14 @@
              class="button--grey">
              <fa :icon="faGithub" /> GitHub
              </a> -->
-        <a
-          href="https://quickshift.ch"
-          target="_blank"
-          class="main-link button--grey">
-          <img
-            class="svg-inline--fa fa-github fa-w-16"
-            src="~/assets/quickshift_i.svg">
-          QuickShift
-        </a>
-        <br>
-        <a
-          href="mailto:pascal.huber@resolved.ch"
-          target="_blank"
-          class="main-link button--grey">
-          <fa :icon="faEnvelope" /> E-Mail
-        </a>
+        <!-- <a
+             href="https://quickshift.ch"
+             target="_blank">
+             <img
+             class="svg-inline--fa fa-github fa-w-16"
+             src="~/assets/quickshift_i.svg">
+             QuickShift
+             </a> -->
       </div>
     </div>
   </section>
@@ -74,12 +73,14 @@
 <style>
 
   .container {
+    padding: 10px;
+    padding-bottom: 100px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #eee;
+    background-color: #e5e5e5;
   }
 
   .title {
@@ -101,13 +102,31 @@
   }
 
   .links {
-    padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* text-shadow: 0px 0px 4px #434; */
   }
 
-  .main-link {
-    width: 200px;
-    line-height: 2;
-    margin: 10px;
+  a.link:link:nth-of-type(1) {
+    color: #a7001e;
+  }
+
+  a.link:link:nth-of-type(2) {
+    color: #3e5d47;
+  }
+
+  a.link:link:nth-of-type(3) {
+    color: #76420c;
+  }
+
+  /* @media screen and (max-width: 500px) {
+     } */
+
+  .link {
+    display: block;
+    padding-top: 5px;
   }
 
   @font-face {
