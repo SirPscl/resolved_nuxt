@@ -6,8 +6,7 @@
 
 <style>
   html {
-    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: "Courier New", Courier, monospace;
     font-size: 16px;
     word-spacing: 1px;
     -ms-text-size-adjust: 100%;
@@ -25,8 +24,8 @@
   }
 
   .container {
-    padding: 10px;
-    padding-bottom: 100px;
+    padding: 20px;
+    padding-bottom: 120px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -53,7 +52,7 @@
 
     @media screen and (max-height: 300px) {
       .main-title {
-        font-size: 50px !important;
+        font-size: 60px !important;
       }
 
       .links {
@@ -66,21 +65,25 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 25px;
-    font-size: 1.2rem;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: bold;
   }
 
-  a.link:link:nth-of-type(1) {
+  a:link {
+    color: #35495e;
+    text-decoration: none;
+  }
+
+  a:hover {
     color: #3e6d47;
-  }
-
-  a.link:link:nth-of-type(2) {
-    color: #8f6442;
   }
 
   .link {
     display: block;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   @font-face {
