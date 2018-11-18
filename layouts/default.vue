@@ -61,9 +61,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 13px;
+    padding: 15px;
     text-align: right;
     font-weight: bold;
   }
@@ -88,8 +86,7 @@
 
   .link {
     display: block;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding: 7px;
   }
 
   @font-face {
