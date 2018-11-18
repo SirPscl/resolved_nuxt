@@ -35,7 +35,7 @@
   }
 
   .main-title {
-    font-family: 'augie', sans-serif;
+    font-family: augie, Ubuntu, 'Trebuchet MS', sans-serif;
     display: block;
     font-weight: 300;
     font-size: 100px;
