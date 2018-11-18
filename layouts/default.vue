@@ -45,12 +45,28 @@
     letter-spacing: 1px;
   }
 
+    @media screen and (max-width: 500px) {
+      .main-title {
+        font-size: 75px !important;
+      }
+    }
+
+    @media screen and (max-height: 300px) {
+      .main-title {
+        font-size: 50px !important;
+      }
+
+      .links {
+        font-size: 1rem !important;
+      }
+    }
+
   .links {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     font-size: 1.2rem;
   }
 
@@ -61,9 +77,6 @@
   a.link:link:nth-of-type(2) {
     color: #8f6442;
   }
-
-  /* @media screen and (max-width: 500px) {
-     } */
 
   .link {
     display: block;
