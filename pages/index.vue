@@ -15,12 +15,12 @@
           target="_blank">
           public key
         </a>
-        <a
-          href="/cv_pascal_huber.pdf"
-          class="link"
-          target="_blank">
-          curriculum vitae
-        </a>
+        <!-- <a
+             href="/cv_pascal_huber.pdf"
+             class="link"
+             target="_blank">
+             curriculum vitae
+             </a> -->
         <!-- <a
              href="https://github.com/sirpscl"
              target="_blank"
