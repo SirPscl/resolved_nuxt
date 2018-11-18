@@ -102,11 +102,13 @@
   }
 
   a.link:link:nth-of-type(1) {
-    color: #a7001e;
+    color: #8f6442;
+    /* color: #a7001e; */
   }
 
   a.link:link:nth-of-type(2) {
-    color: #3e5d47;
+    color: #869b62;
+    /* color: #3e5d47; */
   }
 
   a.link:link:nth-of-type(3) {
