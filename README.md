@@ -6,6 +6,8 @@ Add to the following to `/.htaccess`. It will redirect 404 to the index (where
 the nuxt router will handle them). Furthermore it wiill enable compression and
 set expiry-times for all content.
 
+Test the config with https://gtmetrix.com
+
 ```
 # Redirect 404 to main page
 ErrorDocument 404 /index.html
@@ -95,4 +97,12 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
+
 ## Deployment
+
+``` bash
+npm run generate
+```
+
+Then upload the content of `./dist/` (via ftp). Don't forget to include the
+`.htaccess` file.
