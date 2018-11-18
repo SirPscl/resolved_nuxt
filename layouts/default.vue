@@ -54,10 +54,6 @@
       .main-title {
         font-size: 60px !important;
       }
-
-      .links {
-        font-size: 1rem !important;
-      }
     }
 
   .links {
@@ -65,8 +61,9 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 20px;
+    padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 13px;
     text-align: right;
     font-weight: bold;
   }
@@ -80,10 +77,19 @@
     color: #3e6d47;
   }
 
+  a:visited {
+    color: #35495e;
+  }
+
+  a:active {
+    color: #35495e;
+  }
+
+
   .link {
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 
   @font-face {
