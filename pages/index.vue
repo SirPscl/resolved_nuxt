@@ -1,7 +1,6 @@
 <template>
   <section class="container">
     <div>
-      <!-- <logo/> -->
       <h1 class="title">Pascal Huber</h1>
       <div class="links">
         <a
@@ -10,21 +9,18 @@
           target="_blank">
           pascal.huber@resolved.ch
         </a>
-        <!-- <span class="show-for-large-only">&nbsp;|&nbsp;</span> -->
         <a
-          href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xE493B06DD070AFC8"
+          href="https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0x54415487B3BC3474"
           class="link"
           target="_blank">
           public key
         </a>
-        <!-- <span class="show-for-large-only">&nbsp;|&nbsp;</span> -->
         <a
           href="/cv_pascal_huber.pdf"
           class="link"
           target="_blank">
           curriculum vitae
         </a>
-        <br>
         <!-- <a
              href="https://github.com/sirpscl"
              target="_blank"
@@ -45,14 +41,10 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue'
   import { faGithub } from '@fortawesome/free-brands-svg-icons'
   import { faKey, faEnvelope, faFileContract } from '@fortawesome/free-solid-svg-icons'
 
   export default {
-    components: {
-      Logo
-    },
     computed: {
       faGithub() {
         return faGithub
@@ -106,7 +98,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    /* text-shadow: 0px 0px 4px #434; */
+    padding-bottom: 15px;
   }
 
   a.link:link:nth-of-type(1) {
