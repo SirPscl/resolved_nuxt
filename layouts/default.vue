@@ -26,7 +26,7 @@
   .container {
     padding: 20px;
     padding-bottom: 120px;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
