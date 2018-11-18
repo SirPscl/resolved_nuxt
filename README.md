@@ -3,11 +3,14 @@
 ## Apache config
 
 Add to the following to `/.htaccess`. It will redirect 404 to the index (where
-the nuxt router will handle them). And it will enable gzip compression.
+the nuxt router will handle them). Furthermore it wiill enable compression and
+set expiry-times for all content.
 
 ```
+# Redirect 404 to main page
 ErrorDocument 404 /index.html
 
+# Enable compression
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE application/javascript
   AddOutputFilterByType DEFLATE application/rss+xml
@@ -29,6 +32,37 @@ ErrorDocument 404 /index.html
   AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE text/plain
   AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# Leverage Browser Caching
+<IfModule mod_expires.c>
+
+  # Turn on the module
+  ExpiresActive On
+
+  # Default
+  ExpiresDefault "access plus 1 month"
+
+  # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
 </IfModule>
 ```
 
