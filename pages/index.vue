@@ -1,21 +1,19 @@
 <template>
   <section class="container">
-    <div>
-      <h1 class="main-title">Pascal Huber</h1>
-      <div class="links">
-        <a
-          href="https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0x54415487B3BC3474"
-          class="link"
-          target="_blank">
-          [ public key ]
-        </a>
-        <a
-          href="mailto:pascal.huber@resolved.ch"
-          class="link"
-          target="_blank">
-          [ pascal.huber@resolved.ch ]
-        </a>
-      </div>
+    <h1 class="main-title">Pascal Huber</h1>
+    <div class="links">
+      <a
+        href="https://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0x54415487B3BC3474"
+        class="link"
+        target="_blank">
+        [ public key ]
+      </a>
+      <a
+        href="mailto:pascal.huber@resolved.ch"
+        class="link"
+        target="_blank">
+        [ pascal.huber@resolved.ch ]
+      </a>
     </div>
   </section>
 </template>
