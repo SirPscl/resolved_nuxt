@@ -97,7 +97,7 @@
 
   .link {
     display: block;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   @font-face {
