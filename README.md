@@ -1,5 +1,13 @@
 # resolved-nuxt
 
+## Error redirect
+
+Add to `.htaccess`:
+
+```
+ErrorDocument 404 /index.html
+```
+
 ## Serve Static locally
 
 ``` bash
