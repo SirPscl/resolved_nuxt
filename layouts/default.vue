@@ -7,7 +7,7 @@
 <style>
   html {
     font-family: "Courier New", Courier, monospace;
-    font-size: 14px;
+    font-size: 16px;
     /* word-spacing: 1px; */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -41,7 +41,7 @@
   .site-title h1  {
     font-family: augie, Ubuntu, 'Trebuchet MS', sans-serif;
     font-weight: 300;
-    font-size: 6rem;;
+    font-size: 5rem;;
     line-height: 1;
     padding: 20px 0;
     color: #35495e;
@@ -50,10 +50,12 @@
 
   h2 {
     color: #35495e;
+    font-size: 1.4rem;;
   }
 
   .highlight-text {
-    color: #3e6d47;
+    color: #3e8d47;
+    white-space: nowrap;
     /* text-decoration: underline; */
   }
 
@@ -88,11 +90,27 @@
     src: url('/augie.ttf');
   }
 
-  /* Large layout */
-  @media screen and ((min-width: 500px) and (min-height: 300px)) {
+  /* Very small layouts */
+  .site-title h1 {
+    /* font-size: 6rem !important; */
+    /* color: red !important; */
+  }
 
-    .site-title h1 {
-      color: red !important;
+  .site-title h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .site-description {
+    margin: auto;
+    max-width: 550px;
+  }
+
+  /* Normal layout */
+  @media screen and (min-width: 300px) and (min-height: 400px) {
+
+    .container {
+      padding: 10px;
+      height: 100%;
     }
 
     .centered {
@@ -107,18 +125,11 @@
       transform: translateY(-50%);
     }
 
-
-    .site-description {
-      margin: auto;
-      max-width: 550px;
-    }
-
     .site-links {
       text-align: right;
       position: fixed;
       right: 20px;
       bottom: 20px;
-      width: 50%;
     }
 
     .site-links {
@@ -126,5 +137,17 @@
       text-align: right;
     }
   }
+
+  /* Large layout */
+  @media screen and (min-width: 800px) and (min-height: 500px) {
+    .site-title h1 {
+      font-size: 6rem !important;
+    }
+
+    .site-title h2 {
+      font-size: 1.6rem !important;
+    }
+  }
+
 
 </style>
