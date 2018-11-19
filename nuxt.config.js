@@ -39,6 +39,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/sitemap',
     ['nuxt-fontawesome', {
       component: 'fa',
       imports: [
@@ -53,6 +54,20 @@ module.exports = {
       ]
     }]
   ],
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://resolved.ch',
+    gzip: true,
+    generate: true, // Enable me when using nuxt generate
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ],
+    routes: [
+      '/',
+    ]
+  },
 
   /*
   ** Build configuration
