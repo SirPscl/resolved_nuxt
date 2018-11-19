@@ -18,7 +18,6 @@
       <a
         href="mailto:pascal.huber@resolved.ch"
         class="link"
-        target="_blank">
         [ pascal.huber@resolved.ch ]
       </a>
     </div>
