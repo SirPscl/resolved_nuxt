@@ -66,10 +66,11 @@
   a:link {
     color: #35495e;
     text-decoration: none;
+    font-weight: bold;
   }
 
   a:hover {
-    color: #3e6d47;
+    color: #3e8d47;
   }
 
   a:visited {

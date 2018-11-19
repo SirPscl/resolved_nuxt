@@ -24,25 +24,3 @@
     </div>
   </div>
 </template>
-
-<script>
-  import { faGithub } from '@fortawesome/free-brands-svg-icons'
-  import { faKey, faEnvelope, faFileContract } from '@fortawesome/free-solid-svg-icons'
-
-  export default {
-    computed: {
-      faGithub() {
-        return faGithub
-      },
-      faKey() {
-        return faKey
-      },
-      faEnvelope() {
-        return faEnvelope
-      },
-      faFileContract() {
-        return faFileContract
-      }
-    }
-  }
-</script>
