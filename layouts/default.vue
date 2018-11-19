@@ -7,63 +7,58 @@
 <style>
   html {
     font-family: "Courier New", Courier, monospace;
-    font-size: 16px;
-    word-spacing: 1px;
+    font-size: 14px;
+    /* word-spacing: 1px; */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
 
   *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
+  :before,
+  :after {
+    /* box-sizing: border-box; */
     margin: 0;
   }
 
-  .container {
-    padding: 20px;
-    padding-bottom: 120px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  body {
     background-color: #e5e5e5;
+    text-align: center;
   }
 
-  .main-title {
+  .container {
+    padding: 10px;
+    height: 100%;
+  }
+
+  .site-links {
+    margin-top: 40px;
+    /* text-align: right; */
+  }
+
+  .site-title h1  {
     font-family: augie, Ubuntu, 'Trebuchet MS', sans-serif;
-    display: block;
     font-weight: 300;
-    font-size: 100px;
+    font-size: 6rem;;
     line-height: 1;
+    padding: 20px 0;
     color: #35495e;
     letter-spacing: 1px;
   }
 
-    @media screen and (max-width: 500px) {
-      .main-title {
-        font-size: 75px !important;
-      }
-    }
+  h2 {
+    color: #35495e;
+  }
 
-    @media screen and (max-height: 300px) {
-      .main-title {
-        font-size: 60px !important;
-      }
-    }
+  .highlight-text {
+    color: #3e6d47;
+    /* text-decoration: underline; */
+  }
 
-  .links {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 15px;
-    text-align: right;
-    font-weight: bold;
+  .link {
+    display: block;
   }
 
   a:link {
@@ -83,7 +78,6 @@
     color: #35495e;
   }
 
-
   .link {
     display: block;
     padding: 7px;
@@ -93,4 +87,44 @@
     font-family: 'augie';
     src: url('/augie.ttf');
   }
+
+  /* Large layout */
+  @media screen and ((min-width: 500px) and (min-height: 300px)) {
+
+    .site-title h1 {
+      color: red !important;
+    }
+
+    .centered {
+      position: fixed;
+      right: 20px;
+      left: 20px;
+      top: 40%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+
+    .site-description {
+      margin: auto;
+      max-width: 550px;
+    }
+
+    .site-links {
+      text-align: right;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 50%;
+    }
+
+    .site-links {
+      margin-top: 0;
+      text-align: right;
+    }
+  }
+
 </style>
