@@ -17,7 +17,7 @@
       </a>
       <a
         href="mailto:pascal.huber@resolved.ch"
-        class="link"
+        class="link">
         [ pascal.huber@resolved.ch ]
       </a>
     </div>
