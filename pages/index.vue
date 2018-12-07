@@ -47,8 +47,7 @@
           "worksFor": "QuickShift GmbH",
           "alumniOf": "ZHAW School of Engineering",
           "affiliation": "ETH Zürich",
-          "homeLocation": "Dübendorf",
-          "homeLocation": "Arbon",
+          "homeLocation": ["Arbon", "Dübendorf"],
           "knowsAbout": "IT Software Computers Development"
           // More structured data...
         },
