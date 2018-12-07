@@ -1,10 +1,23 @@
 <template>
-  <div class="container" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="birthPlace" content="Arbon" />
-    <meta itemprop="birthDate" content="1992-09-09" />
-    <meta itemprop="worksFor" content="QuickShift GmbH" />
-    <meta itemprop="alumniOf" content="ZHAW School of Engineering" />
-    <meta itemprop="homeLocation" content="Dübendorf" />
+  <div
+    class="container"
+    itemscope
+    itemtype="http://schema.org/Person">
+    <meta
+      itemprop="birthPlace"
+      content="Arbon">
+    <meta
+      itemprop="birthDate"
+      content="1992-09-09">
+    <meta
+      itemprop="worksFor"
+      content="QuickShift GmbH">
+    <meta
+      itemprop="alumniOf"
+      content="ZHAW School of Engineering">
+    <meta
+      itemprop="homeLocation"
+      content="Dübendorf">
     <div class="centered">
       <div class="site-title">
         <h1 itemprop="name">Pascal Huber</h1>
