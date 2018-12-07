@@ -18,7 +18,7 @@
     </div>
     <div class="site-links">
       <a
-        href="http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x54415487B3BC3474"
+        href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x54415487B3BC3474"
         class="link"
         target="_blank">
         [ public key ]
