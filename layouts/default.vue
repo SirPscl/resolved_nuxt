@@ -59,6 +59,11 @@
     /* text-decoration: underline; */
   }
 
+  .underline-link:hover {
+    color: #35495e;
+    text-decoration: underline;
+  }
+
   .link {
     display: block;
   }

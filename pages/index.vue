@@ -12,6 +12,7 @@
           <span class="highlight-text">student</span>
           and <span class="highlight-text">co-founder</span> of
           <a
+            class="underline-link"
             href="https://quickshift.ch"
             target="_blank">QuickShift</a>.</h2>
       </div>
