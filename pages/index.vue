@@ -41,7 +41,7 @@
           "@context": "http://schema.org",
           "@type": "Person",
           "name": "Pascal Huber",
-          "description": "I am a software developer computer science student and co-founder of QuickShift",
+          "description": "I am a software developer computer science student and co-founder of QuickShift.",
           "email": "pascal.huber@resolved.ch",
           "birthPlace": "St.Gallen",
           "birthDate": "1992-09-09",
