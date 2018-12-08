@@ -50,7 +50,6 @@
           "affiliation": "ETH Zürich",
           "homeLocation": ["Arbon", "Dübendorf"],
           "knowsAbout": "IT Software Computers Development"
-          // More structured data...
         },
       }
     },
