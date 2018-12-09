@@ -48,9 +48,12 @@
     letter-spacing: 1px;
   }
 
-  h2 {
+  .site-description {
     color: #35495e;
+    font-weight: bold;
     font-size: 1.4rem;;
+    margin: auto;
+    max-width: 550px;
   }
 
   .highlight-text {
@@ -96,21 +99,6 @@
     src: url('/augie.ttf');
   }
 
-  /* Very small layouts */
-  .site-title h1 {
-    /* font-size: 6rem !important; */
-    /* color: red !important; */
-  }
-
-  .site-title h2 {
-    font-size: 1.6rem !important;
-  }
-
-  .site-description {
-    margin: auto;
-    max-width: 550px;
-  }
-
   /* Normal layout */
   @media screen and (min-width: 300px) and (min-height: 400px) {
 
@@ -148,10 +136,6 @@
   @media screen and (min-width: 800px) and (min-height: 500px) {
     .site-title h1 {
       font-size: 6rem !important;
-    }
-
-    .site-title h2 {
-      font-size: 1.6rem !important;
     }
   }
 

@@ -5,16 +5,15 @@
         <h1>Pascal Huber</h1>
       </div>
       <div class="site-description">
-        <h2>
-          I am a software
-          <span class="highlight-text">developer</span>,
-          computer science
-          <span class="highlight-text">student</span>
-          and <span class="highlight-text">co-founder</span> of
-          <a
-            class="underline-link"
-            href="https://quickshift.ch"
-            target="_blank">QuickShift</a>.</h2>
+        I am a software
+        <span class="highlight-text">developer</span>,
+        computer science
+        <span class="highlight-text">student</span>
+        and <span class="highlight-text">co-founder</span> of
+        <a
+          class="underline-link"
+          href="https://quickshift.ch"
+          target="_blank">QuickShift</a>.
       </div>
     </div>
     <div class="site-links">
