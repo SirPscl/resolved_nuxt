@@ -17,7 +17,7 @@
         <nuxt-link
           to="/"
           class="link">
-          [ back to safety ]
+          [ go back ]
         </nuxt-link>
       </div>
     </div>
