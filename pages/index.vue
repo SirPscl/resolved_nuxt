@@ -42,13 +42,18 @@
           "name": "Pascal Huber",
           "description": "I am a software developer computer science student and co-founder of QuickShift.",
           "email": "pascal.huber@resolved.ch",
-          "birthPlace": "St.Gallen",
           "birthDate": "1992-09-09",
-          "worksFor": "QuickShift GmbH",
-          "alumniOf": "ZHAW School of Engineering",
-          "affiliation": "ETH Zürich",
           "homeLocation": ["Arbon", "Dübendorf"],
-          "knowsAbout": "IT Software Computers Development"
+          "worksFor": "QuickShift GmbH",
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "ETH Zürich"
+          },
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "ZHAW School of Engineering"
+          },
+          "knowsAbout": "Computer Science"
         },
       }
     },
