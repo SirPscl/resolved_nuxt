@@ -17,7 +17,7 @@
         <nuxt-link
           to="/"
           class="link">
-          [ go back ]
+          [ back ]
         </nuxt-link>
       </div>
     </div>
