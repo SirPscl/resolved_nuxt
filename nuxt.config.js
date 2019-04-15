@@ -7,10 +7,6 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {}
 
-export default {
-  ...routerBase
-}
-
 module.exports = {
   mode: 'spa',
 
@@ -103,5 +99,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  router: {
+    base: '/resolved_nuxt/'
   }
 }
