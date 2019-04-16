@@ -43,7 +43,15 @@
           "description": "I am a software developer computer science student and co-founder of QuickShift.",
           "email": "pascal.huber@resolved.ch",
           "birthDate": "1992-09-09",
-          "homeLocation": ["Arbon", "Dübendorf"],
+          "homeLocation": [
+            {
+              "@type": "Place",
+              "name": "Arbon"
+            },{
+              "@type": "Place",
+              "name": "Dübendorf"
+            }
+          ],
           "worksFor": "QuickShift GmbH",
           "affiliation": {
             "@type": "CollegeOrUniversity",
