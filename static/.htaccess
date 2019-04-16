@@ -1,5 +1,5 @@
 # Redirect 404 to main page
-ErrorDocument 404 /404/index.html
+ErrorDocument 404 /404.html
 
 # Enable compression
 <IfModule mod_deflate.c>
