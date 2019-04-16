@@ -3,7 +3,7 @@
 ## Serve Static locally
 
 ``` bash
-npm install -v serve
+npm install -g serve
 serve ./dist
 ```
 
@@ -29,12 +29,10 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
-
-## Deployment
+## Deploy to Github-page
 
 ``` bash
-npm run generate
+npm run build:gh-pages
+npm run generate:gh-pages
+npm run deploy
 ```
-
-Then upload the content of `./dist/` (via ftp). Don't forget to include the
-`.htaccess` file.
