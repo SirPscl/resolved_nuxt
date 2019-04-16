@@ -18,7 +18,7 @@
     </div>
     <div class="site-links">
       <a
-        href="http://hkps.pool.sks-keyservers.net/pks/lookup?op=vindex&fingerprint=on&search=0x54415487B3BC3474"
+        href="https://sks-keyservers.net/pks/lookup?op=get&search=0x54415487b3bc3474"
         class="link"
         target="_blank">
         [ public key ]
