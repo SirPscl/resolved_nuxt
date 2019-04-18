@@ -8,12 +8,16 @@
   html {
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
-    /* word-spacing: 1px; */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    /* box-sizing: border-box; */
+  }
+
+  @font-face {
+    font-family: 'augie';
+    src: url('/augie.woff2') format('woff2');
+    font-display: fallback;
   }
 
   *,
@@ -35,13 +39,12 @@
 
   .site-links {
     margin-top: 40px;
-    /* text-align: right; */
   }
 
   .site-title h1  {
-    font-family: augie, Ubuntu, 'Trebuchet MS', sans-serif;
-    font-weight: 300;
-    font-size: 5rem;;
+    font-family: augie, Georgia, Arial;
+    font-weight: 400;
+    font-size: 5rem;
     line-height: 1;
     padding: 20px 0;
     color: #35495e;
@@ -92,11 +95,6 @@
   .link {
     display: block;
     padding: 7px;
-  }
-
-  @font-face {
-    font-family: 'augie';
-    src: url('/augie.ttf');
   }
 
   /* Normal layout */
