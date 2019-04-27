@@ -2,7 +2,7 @@
   <div class="container">
     <div class="centered">
       <div class="site-title">
-        <h1>Pascal Huber</h1>
+        <h1 id="site-title">Pascal Huber</h1>
       </div>
       <div class="site-description">
         I am a software
@@ -33,6 +33,24 @@
 </template>
 
 <script>
+  const fadeIn = (element) => {
+    var op = 0;
+    var timer = setInterval(() => {
+      if (op >= 1.0){
+        clearInterval(timer);
+      }
+      element.style.opacity = op;
+      element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+      op  += 0.03;
+    }, 20);
+  }
+
+  window.onNuxtReady((app) => {
+    setTimeout(function () {
+      fadeIn(document.body);
+    }, 100)
+  });
+
   export default {
     data() {
       return {
@@ -80,3 +98,8 @@
     }
   }
 </script>
+<style lang="postcss">
+  body {
+    opacity: 0;
+  }
+</style>

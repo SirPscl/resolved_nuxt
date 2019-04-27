@@ -16,7 +16,7 @@
 
   @font-face {
     font-family: 'augie';
-    src: url('/augie.woff2') format('woff2');
+    src: url('../assets/augie.woff2') format('woff2');
     font-display: fallback;
   }
 
