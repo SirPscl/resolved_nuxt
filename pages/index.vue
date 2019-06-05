@@ -1,5 +1,7 @@
 <template>
-  <div class="container">
+  <div
+    id="content"
+    class="container">
     <div class="centered">
       <div class="site-title">
         <h1 id="site-title">Pascal Huber</h1>
@@ -47,7 +49,7 @@
 
   window.onNuxtReady((app) => {
     setTimeout(function () {
-      fadeIn(document.body);
+      fadeIn(document.getElementById("content"));
     }, 100)
   });
 
@@ -99,7 +101,7 @@
   }
 </script>
 <style lang="postcss">
-  body {
+  #content {
     opacity: 0;
   }
 </style>
