@@ -20,7 +20,7 @@
     </div>
     <div class="site-links">
       <a
-        href="https://sks-keyservers.net/pks/lookup?op=get&search=0x54415487b3bc3474"
+        href="http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xe1c57858d90c90a9c532349a54415487b3bc3474"
         class="link"
         target="_blank">
         [ public key ]
