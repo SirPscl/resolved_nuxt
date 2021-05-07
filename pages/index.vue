@@ -6,17 +6,6 @@
       <div class="site-title">
         <h1 id="site-title">Pascal Huber</h1>
       </div>
-      <div class="site-description">
-        I am a software
-        <span class="highlight-text">developer</span>,
-        computer science
-        <span class="highlight-text">student</span>
-        and <span class="highlight-text">co-founder</span> of
-        <a
-          class="underline-link"
-          href="https://quickshift.ch"
-          target="_blank">QuickShift</a>.
-      </div>
     </div>
     <div class="site-links">
       <a
@@ -60,7 +49,6 @@
           "@context": "http://schema.org",
           "@type": "Person",
           "name": "Pascal Huber",
-          "description": "I am a software developer computer science student and co-founder of QuickShift.",
           "email": "pascal.huber@resolved.ch",
           "birthDate": "1992-09-09",
           "homeLocation": [
@@ -72,7 +60,6 @@
               "name": "Dübendorf"
             }
           ],
-          "worksFor": "QuickShift GmbH",
           "affiliation": {
             "@type": "CollegeOrUniversity",
             "name": "ETH Zürich"
